@@ -1,5 +1,5 @@
 # VAVM
-A Variable Angular Velocity Model and An Event- based fast rotation dataset.
+A Variable Angular Velocity Model and An Event-Based Fast Rotation Dataset.
 
 The dataset is available at [EFRD](https://drive.google.com/drive/folders/1tOlC-aOPL0YmYcQKetyEFWWRYONG8kF0).
 
