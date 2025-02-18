@@ -4,9 +4,10 @@ A Variable Angular Velocity Model (VAVM) and An Event-Based Fast Rotation Datase
 #
 Rotation estimation algorithms implemented in the VAVM model, including the EF-based approach (VAVM-A) and TS-based method (VAVM-B), along with our proposed optimized cost function.
 
-The dataset is available at [EFRD](https://drive.google.com/drive/folders/1tOlC-aOPL0YmYcQKetyEFWWRYONG8kF0).
 
 # The Event-based Fast Rotation Dataset (EFRD)
+The dataset is available at [EFRD](https://drive.google.com/drive/folders/1tOlC-aOPL0YmYcQKetyEFWWRYONG8kF0).
+
 ## Data Format
 The EFRD is recorded in the data format of rosbag. Within the rosbag of each sequence, the following messages are mainly included:
 
