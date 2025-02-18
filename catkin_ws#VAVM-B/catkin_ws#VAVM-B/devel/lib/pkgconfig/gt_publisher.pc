@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/gt_publisher/lib/pkgconfig/gt_publisher.pc

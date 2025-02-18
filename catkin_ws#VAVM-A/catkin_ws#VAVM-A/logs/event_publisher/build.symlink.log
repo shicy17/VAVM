@@ -1,0 +1,4 @@
+Symlinking /home/julia/catkin_ws/devel/share/event_publisher/cmake/event_publisherConfig.cmake
+Symlinking /home/julia/catkin_ws/devel/share/event_publisher/cmake/event_publisherConfig-version.cmake
+Symlinking /home/julia/catkin_ws/devel/lib/event_publisher/event_publisher
+Symlinking /home/julia/catkin_ws/devel/lib/pkgconfig/event_publisher.pc

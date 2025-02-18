@@ -1,0 +1,8 @@
+prefix=/home/julia/catkin_ws/install
+
+Name: gt_publisher
+Description: Description of gt_publisher
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

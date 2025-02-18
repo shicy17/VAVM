@@ -1,0 +1,5 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/event_publisher.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/julia/catkin_ws/devel/.private/event_publisher/lib/event_publisher/event_publisher[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /usr/local/lib/libopencv_imgcodecs.so.3.4.8, may conflict with libopencv_core.so.3.2
+[100%] Built target event_publisher

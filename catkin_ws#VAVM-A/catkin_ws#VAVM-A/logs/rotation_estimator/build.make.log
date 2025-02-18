@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/rotation_estimator.dir/src/utils/System.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rotation_estimator.dir/src/utils/Estimator.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rotation_estimator.dir/src/utils/Database.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rotation_estimator.dir/src/utils/Undistortion.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rotation_estimator.dir/src/utils/numerics.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library /home/julia/catkin_ws/devel/.private/rotation_estimator/lib/librotation_estimator.so[0m
+[ 75%] Built target rotation_estimator
+[ 87%] [32mBuilding CXX object CMakeFiles/rotation_estimation.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/julia/catkin_ws/devel/.private/rotation_estimator/lib/rotation_estimator/rotation_estimation[0m
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /home/julia/catkin_ws/devel/.private/rotation_estimator/lib/librotation_estimator.so, may conflict with libopencv_core.so.3.2
+[100%] Built target rotation_estimation

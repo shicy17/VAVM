@@ -1,0 +1,69 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~streaming_rate" : \b [int] integration time (0 is instant sending) min: 0, default: 30, max: 10000
+- \b "~max_events" : \b [int] max. events per packet (0 is no limit) min: 0, default: 0, max: 100000
+- \b "~aps_enabled" : \b [bool] enables APS min: False, default: True, max: True
+- \b "~dvs_enabled" : \b [bool] enables DVS min: False, default: True, max: True
+- \b "~imu_enabled" : \b [bool] enables IMU min: False, default: True, max: True
+- \b "~autoexposure_enabled" : \b [bool] enables the RPG auto-exposure algorithm (experimental) min: False, default: False, max: True
+- \b "~autoexposure_gain" : \b [int] auto-exposure gain (lower: slow response time, without oscillations / higher: faster response time, with oscillations min: 1, default: 3, max: 10
+- \b "~autoexposure_desired_intensity" : \b [int] desired mean image intensity: controls the overall image brightness min: 0, default: 75, max: 255
+- \b "~exposure" : \b [int] exposure (frame exposure time in microseconds) min: 0, default: 5000, max: 1000000
+- \b "~frame_mode" : \b [int] Desired type of frame output min: 0, default: 0, max: 2
+- \b "~frame_interval" : \b [int] frame interval (best-effort time between consecutive frames in microseconds) min: 0, default: 25000, max: 8388607
+- \b "~imu_acc_scale" : \b [int] Full scale of the accelerometer min: 0, default: 3, max: 3
+- \b "~imu_gyro_scale" : \b [int] Full scale of the gyroscope min: 0, default: 3, max: 3
+- \b "~imu_low_pass_filter" : \b [int] Bandwidth of the low-pass filter applied to the accelerometer/gyroscope min: 0, default: 1, max: 6
+- \b "~background_activity_filter_enabled" : \b [bool] enables background activity filter min: False, default: True, max: True
+- \b "~background_activity_filter_time" : \b [int] background activity filter time (in blocks of 250 microseconds). min: 0, default: 80, max: 400
+- \b "~refractory_period_enabled" : \b [bool] enables refractory period filter min: False, default: False, max: True
+- \b "~refractory_period_time" : \b [int] refractory period time (in blocks of 250 microseconds) min: 0, default: 2, max: 20
+- \b "~skip_enabled" : \b [bool] enables the event skip filter, which throws away one event every N events (decimation filter) min: False, default: False, max: True
+- \b "~skip_every" : \b [int] number of events to let through before skipping one min: 0, default: 0, max: 255
+- \b "~polarity_suppress" : \b [bool] suppress one of the two ON/OFF polarities completely min: False, default: False, max: True
+- \b "~polarity_suppress_type" : \b [bool] polarity to suppress (0=OFF, 1=ON) min: False, default: False, max: True
+- \b "~polarity_flatten" : \b [bool] flatten all polarities to OFF; applied after supression min: False, default: False, max: True
+- \b "~roi_start_column" : \b [int] start position on the X axis for DVS region of interest min: 0, default: 0, max: 345
+- \b "~roi_start_row" : \b [int] start position on the Y axis for DVS region of interest min: 0, default: 0, max: 259
+- \b "~roi_end_column" : \b [int] end position on the X axis for DVS region of interest min: 0, default: 345, max: 345
+- \b "~roi_end_row" : \b [int] end position on the Y axis for DVS region of interest min: 0, default: 259, max: 259
+- \b "~aps_roi_start_column" : \b [int] start position on the X axis for APS region of interest min: 0, default: 0, max: 345
+- \b "~aps_roi_start_row" : \b [int] start position on the Y axis for APS region of interest min: 0, default: 0, max: 259
+- \b "~aps_roi_end_column" : \b [int] end position on the X axis for APS region of interest min: 0, default: 345, max: 345
+- \b "~aps_roi_end_row" : \b [int] end position on the Y axis for APS region of interest min: 0, default: 259, max: 259
+- \b "~pixel_0_row" : \b [int] pixel 0, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_0_column" : \b [int] pixel 0, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_1_row" : \b [int] pixel 1, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_1_column" : \b [int] pixel 1, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_2_row" : \b [int] pixel 2, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_2_column" : \b [int] pixel 2, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_3_row" : \b [int] pixel 3, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_3_column" : \b [int] pixel 3, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_4_row" : \b [int] pixel 4, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_4_column" : \b [int] pixel 4, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_5_row" : \b [int] pixel 5, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_5_column" : \b [int] pixel 5, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_6_row" : \b [int] pixel 6, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_6_column" : \b [int] pixel 6, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_7_row" : \b [int] pixel 3, Y axis setting min: 0, default: 259, max: 259
+- \b "~pixel_7_column" : \b [int] pixel 7, X axis setting min: 0, default: 345, max: 345
+- \b "~pixel_auto_train" : \b [bool] enable automatic filtering of 8 most active pixels (above ~5KHz) min: False, default: False, max: True
+- \b "~PrBp_coarse" : \b [int] Amplifier in first stage. Limits the speed. Higher=faster and more noise (coarse, logarithmic) min: 0, default: 2, max: 7
+- \b "~PrBp_fine" : \b [int] Amplifier in first stage. Limits the speed. Higher=faster and more noise (fine, linear) min: 0, default: 58, max: 255
+- \b "~PrSFBp_coarse" : \b [int] Source follower: set high to allow higher pixel bandwidth (has no influence if set high enough) (coarse, logarithmic) min: 0, default: 1, max: 7
+- \b "~PrSFBp_fine" : \b [int] Source follower: set high to allow higher pixel bandwidth (has no influence if set high enough) (fine, linear) min: 0, default: 33, max: 255
+- \b "~DiffBn_coarse" : \b [int] Amplifier of second stage. Indep of actual illumination level. rebalance ONBn/OFFBn after changing this (coarse, logarithmic) min: 0, default: 4, max: 7
+- \b "~DiffBn_fine" : \b [int] Amplifier of second stage. Indep of actual illumination level. rebalance ONBn/OFFBn after changing this (fine, linear) min: 0, default: 39, max: 255
+- \b "~ONBn_coarse" : \b [int] Threshold for ON events (contrast sensitivity). Must be >DiffBn. (coarse, logarithmic) min: 0, default: 6, max: 7
+- \b "~ONBn_fine" : \b [int] Threshold for ON events (contrast sensitivity). Must be >DiffBn. (fine, linear) min: 0, default: 200, max: 255
+- \b "~OFFBn_coarse" : \b [int] Threshold for OFF events (contrast sensitivity). Must be <DiffBn. (coarse, logarithmic) min: 0, default: 4, max: 7
+- \b "~OFFBn_fine" : \b [int] Threshold for OFF events (contrast sensitivity). Must be <DiffBn. (fine, linear) min: 0, default: 0, max: 255
+- \b "~RefrBp_coarse" : \b [int] Maximum pixel firing rate (reset time before it can start to detect changes again) (coarse, logarithmic) min: 0, default: 4, max: 7
+- \b "~RefrBp_fine" : \b [int] Maximum pixel firing rate (reset time before it can start to detect changes again) (fine, linear) min: 0, default: 25, max: 255
+- \b "~ADC_RefHigh_volt" : \b [int] APS ADC upper conversion limit (voltage) min: 0, default: 27, max: 63
+- \b "~ADC_RefHigh_curr" : \b [int] APS ADC upper conversion limit (current) min: 0, default: 7, max: 7
+- \b "~ADC_RefLow_volt" : \b [int] APS ADC lower conversion limit (voltage) min: 0, default: 1, max: 63
+- \b "~ADC_RefLow_curr" : \b [int] APS ADC lower conversion limit (current) min: 0, default: 7, max: 7
+

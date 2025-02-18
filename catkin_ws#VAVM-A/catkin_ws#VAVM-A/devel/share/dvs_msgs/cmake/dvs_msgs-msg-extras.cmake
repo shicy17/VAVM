@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/dvs_msgs/share/dvs_msgs/cmake/dvs_msgs-msg-extras.cmake

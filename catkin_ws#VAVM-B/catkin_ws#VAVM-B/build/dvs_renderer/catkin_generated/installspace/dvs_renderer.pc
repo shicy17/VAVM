@@ -1,0 +1,8 @@
+prefix=/home/julia/catkin_ws/install
+
+Name: dvs_renderer
+Description: Description of dvs_renderer
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldvs_renderer_nodelet
+Requires: roscpp sensor_msgs dvs_msgs cv_bridge image_transport nodelet

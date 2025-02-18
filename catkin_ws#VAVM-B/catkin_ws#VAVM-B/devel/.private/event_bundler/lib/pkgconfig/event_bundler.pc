@@ -1,0 +1,8 @@
+prefix=/home/julia/catkin_ws/devel/.private/event_bundler
+
+Name: event_bundler
+Description: Description of event_bundler
+Version: 0.0.0
+Cflags: -I/home/julia/catkin_ws/src/PEME/src/event_bundler/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,6 @@
+devel_space: /home/julia/catkin_ws/devel
+install: false
+install_space: /home/julia/catkin_ws/install
+profile: default
+source_space: /home/julia/catkin_ws/src
+workspace: /home/julia/catkin_ws

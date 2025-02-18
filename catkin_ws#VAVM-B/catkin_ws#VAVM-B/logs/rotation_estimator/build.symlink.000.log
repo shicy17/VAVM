@@ -1,0 +1,5 @@
+Symlinking /home/julia/catkin_ws/devel/share/rotation_estimator/cmake/rotation_estimatorConfig.cmake
+Symlinking /home/julia/catkin_ws/devel/share/rotation_estimator/cmake/rotation_estimatorConfig-version.cmake
+Symlinking /home/julia/catkin_ws/devel/lib/rotation_estimator/rotation_estimator
+Symlinking /home/julia/catkin_ws/devel/lib/rotation_estimator/rotation_estimator_node
+Linked: (/home/julia/catkin_ws/devel/.private/rotation_estimator/lib/pkgconfig/rotation_estimator.pc, /home/julia/catkin_ws/devel/lib/pkgconfig/rotation_estimator.pc)

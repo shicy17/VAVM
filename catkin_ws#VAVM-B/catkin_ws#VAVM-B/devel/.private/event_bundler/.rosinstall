@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/julia/catkin_ws/devel/.private/event_bundler/setup.sh

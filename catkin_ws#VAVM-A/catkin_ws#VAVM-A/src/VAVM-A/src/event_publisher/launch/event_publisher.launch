@@ -1,0 +1,46 @@
+<!-- For EDS -->
+<!-- <launch>
+  <node name="event_publisher" pkg="event_publisher" type="event_publisher" output="screen">
+    <remap from="/events" to="/dvs/bundle_events" />
+    <remap from="/time" to="/dvs/bundle_time" />
+    <param name="event_topic" type="string" value="/dvs/events"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="accumulation_window" type="int" value="30000"/>
+    <param name="height" type="int" value="240"/>
+    <param name="width" type="int" value="180"/>
+  </node>
+
+  <node name="gt_publisher" pkg="gt_publisher" type="gt_publisher" output="screen">
+    <remap from="/time_bundler" to="/dvs/bundle_time" />
+    <remap from="/imu" to="/dvs/bundle_imu" />
+    <param name="imu_topic" type="string" value="/optitrack/davis"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="height" type="int" value="240"/>
+    <param name="width" type="int" value="180"/>
+  </node>
+</launch> -->
+
+<!-- For EFRD --> 
+//bicycles 60000 其余30000
+<launch>
+  <node name="event_publisher" pkg="event_publisher" type="event_publisher" output="screen">
+    <remap from="/events" to="/dvs/bundle_events" />
+    <remap from="/time" to="/dvs/bundle_time" />
+    <param name="event_topic" type="string" value="/dvs/events_denoise"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="accumulation_window" type="int" value="30000"/> 
+    <param name="height" type="int" value="346"/>
+    <param name="width" type="int" value="260"/>
+  </node>
+
+  <node name="gt_publisher" pkg="gt_publisher" type="gt_publisher" output="screen">
+    <remap from="/time_bundler" to="/dvs/bundle_time" />
+    <remap from="/imu" to="/dvs/bundle_imu" />
+    <param name="imu_topic" type="string" value="/imu/gt"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="height" type="int" value="346"/>
+    <param name="width" type="int" value="260"/>
+  </node>
+</launch>
+
+<!-- accumulation_window: bicycles-60k, others-30k -->

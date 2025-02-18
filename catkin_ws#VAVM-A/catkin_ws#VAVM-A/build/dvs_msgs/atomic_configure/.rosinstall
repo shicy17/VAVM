@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/julia/catkin_ws/devel/.private/dvs_msgs/setup.sh

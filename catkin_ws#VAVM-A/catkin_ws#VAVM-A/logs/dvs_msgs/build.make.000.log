@@ -1,0 +1,25 @@
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _dvs_msgs_generate_messages_check_deps_Event
+[  0%] Built target _dvs_msgs_generate_messages_check_deps_EventArray
+[ 25%] [34m[1mGenerating C++ code from dvs_msgs/EventArray.msg[0m
+[ 33%] [34m[1mGenerating C++ code from dvs_msgs/Event.msg[0m
+[ 25%] [34m[1mGenerating Python from MSG dvs_msgs/EventArray[0m
+[ 25%] [34m[1mGenerating EusLisp code from dvs_msgs/EventArray.msg[0m
+[ 41%] [34m[1mGenerating Lisp code from dvs_msgs/EventArray.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from dvs_msgs/EventArray.msg[0m
+[ 58%] [34m[1mGenerating Lisp code from dvs_msgs/Event.msg[0m
+[ 66%] [34m[1mGenerating Javascript code from dvs_msgs/Event.msg[0m
+[ 75%] [34m[1mGenerating EusLisp code from dvs_msgs/Event.msg[0m
+[ 75%] Built target dvs_msgs_generate_messages_nodejs
+[ 83%] [34m[1mGenerating Python from MSG dvs_msgs/Event[0m
+[ 83%] Built target dvs_msgs_generate_messages_lisp
+[ 91%] [34m[1mGenerating EusLisp manifest code for dvs_msgs[0m
+[ 91%] Built target dvs_msgs_generate_messages_cpp
+[100%] [34m[1mGenerating Python msg __init__.py for dvs_msgs[0m
+[100%] Built target dvs_msgs_generate_messages_py
+[100%] Built target dvs_msgs_generate_messages_eus
+[100%] Built target dvs_msgs_generate_messages

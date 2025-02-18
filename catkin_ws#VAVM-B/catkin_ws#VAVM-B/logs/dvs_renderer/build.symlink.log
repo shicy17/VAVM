@@ -1,0 +1,5 @@
+Symlinking /home/julia/catkin_ws/devel/share/dvs_renderer/cmake/dvs_rendererConfig-version.cmake
+Symlinking /home/julia/catkin_ws/devel/share/dvs_renderer/cmake/dvs_rendererConfig.cmake
+Symlinking /home/julia/catkin_ws/devel/lib/libdvs_renderer_nodelet.so
+Symlinking /home/julia/catkin_ws/devel/lib/dvs_renderer/dvs_renderer
+Symlinking /home/julia/catkin_ws/devel/lib/pkgconfig/dvs_renderer.pc

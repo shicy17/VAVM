@@ -1,0 +1,12 @@
+Symlinking /home/julia/catkin_ws/devel/include/davis_ros_driver/DAVIS_ROS_DriverConfig.h
+Symlinking /home/julia/catkin_ws/devel/share/davis_ros_driver/cmake/davis_ros_driverConfig.cmake
+Symlinking /home/julia/catkin_ws/devel/share/davis_ros_driver/cmake/davis_ros_driverConfig-version.cmake
+Symlinking /home/julia/catkin_ws/devel/share/davis_ros_driver/docs/DAVIS_ROS_DriverConfig.dox
+Symlinking /home/julia/catkin_ws/devel/share/davis_ros_driver/docs/DAVIS_ROS_DriverConfig.wikidoc
+Symlinking /home/julia/catkin_ws/devel/share/davis_ros_driver/docs/DAVIS_ROS_DriverConfig-usage.dox
+Symlinking /home/julia/catkin_ws/devel/lib/libdavis_ros_driver_nodelet.so
+Symlinking /home/julia/catkin_ws/devel/lib/python2.7/dist-packages/davis_ros_driver/__init__.py
+Symlinking /home/julia/catkin_ws/devel/lib/python2.7/dist-packages/davis_ros_driver/cfg/DAVIS_ROS_DriverConfig.py
+Symlinking /home/julia/catkin_ws/devel/lib/python2.7/dist-packages/davis_ros_driver/cfg/__init__.py
+Symlinking /home/julia/catkin_ws/devel/lib/davis_ros_driver/davis_ros_driver
+Symlinking /home/julia/catkin_ws/devel/lib/pkgconfig/davis_ros_driver.pc

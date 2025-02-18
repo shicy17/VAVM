@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/pkgconfig/event_publisher.pc

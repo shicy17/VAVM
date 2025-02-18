@@ -1,0 +1,23 @@
+<!-- For EDS -->
+<!-- <launch>
+  <node name="gt_publisher" pkg="gt_publisher" type="gt_publisher" output="screen">
+    <remap from="/time_bundler" to="/dvs/bundle_time" />
+    <remap from="/imu" to="/dvs/bundle_imu" />
+    <param name="imu_topic" type="string" value="/optitrack/davis"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="height" type="int" value="240"/>
+    <param name="width" type="int" value="180"/>
+  </node>
+</launch> -->
+
+<!-- For EFRD -->
+<launch>
+  <node name="gt_publisher" pkg="gt_publisher" type="gt_publisher" output="screen">
+    <remap from="/time_bundler" to="/dvs/bundle_time" />
+    <remap from="/imu" to="/dvs/bundle_imu" />
+    <param name="imu_topic" type="string" value="/imu/gt"/>
+    <param name="bagname" type="string" value="$(find event_publisher)/building.bag" />
+    <param name="height" type="int" value="346"/>
+    <param name="width" type="int" value="260"/>
+  </node>
+</launch>

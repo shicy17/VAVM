@@ -1,0 +1,70 @@
+\subsubsection usage Usage
+\verbatim
+<node name="davis_ros_driver" pkg="davis_ros_driver" type="davis_ros_driver">
+  <param name="streaming_rate" type="int" value="30" />
+  <param name="max_events" type="int" value="0" />
+  <param name="aps_enabled" type="bool" value="True" />
+  <param name="dvs_enabled" type="bool" value="True" />
+  <param name="imu_enabled" type="bool" value="True" />
+  <param name="autoexposure_enabled" type="bool" value="False" />
+  <param name="autoexposure_gain" type="int" value="3" />
+  <param name="autoexposure_desired_intensity" type="int" value="75" />
+  <param name="exposure" type="int" value="5000" />
+  <param name="frame_mode" type="int" value="0" />
+  <param name="frame_interval" type="int" value="25000" />
+  <param name="imu_acc_scale" type="int" value="3" />
+  <param name="imu_gyro_scale" type="int" value="3" />
+  <param name="imu_low_pass_filter" type="int" value="1" />
+  <param name="background_activity_filter_enabled" type="bool" value="True" />
+  <param name="background_activity_filter_time" type="int" value="80" />
+  <param name="refractory_period_enabled" type="bool" value="False" />
+  <param name="refractory_period_time" type="int" value="2" />
+  <param name="skip_enabled" type="bool" value="False" />
+  <param name="skip_every" type="int" value="0" />
+  <param name="polarity_suppress" type="bool" value="False" />
+  <param name="polarity_suppress_type" type="bool" value="False" />
+  <param name="polarity_flatten" type="bool" value="False" />
+  <param name="roi_start_column" type="int" value="0" />
+  <param name="roi_start_row" type="int" value="0" />
+  <param name="roi_end_column" type="int" value="345" />
+  <param name="roi_end_row" type="int" value="259" />
+  <param name="aps_roi_start_column" type="int" value="0" />
+  <param name="aps_roi_start_row" type="int" value="0" />
+  <param name="aps_roi_end_column" type="int" value="345" />
+  <param name="aps_roi_end_row" type="int" value="259" />
+  <param name="pixel_0_row" type="int" value="259" />
+  <param name="pixel_0_column" type="int" value="345" />
+  <param name="pixel_1_row" type="int" value="259" />
+  <param name="pixel_1_column" type="int" value="345" />
+  <param name="pixel_2_row" type="int" value="259" />
+  <param name="pixel_2_column" type="int" value="345" />
+  <param name="pixel_3_row" type="int" value="259" />
+  <param name="pixel_3_column" type="int" value="345" />
+  <param name="pixel_4_row" type="int" value="259" />
+  <param name="pixel_4_column" type="int" value="345" />
+  <param name="pixel_5_row" type="int" value="259" />
+  <param name="pixel_5_column" type="int" value="345" />
+  <param name="pixel_6_row" type="int" value="259" />
+  <param name="pixel_6_column" type="int" value="345" />
+  <param name="pixel_7_row" type="int" value="259" />
+  <param name="pixel_7_column" type="int" value="345" />
+  <param name="pixel_auto_train" type="bool" value="False" />
+  <param name="PrBp_coarse" type="int" value="2" />
+  <param name="PrBp_fine" type="int" value="58" />
+  <param name="PrSFBp_coarse" type="int" value="1" />
+  <param name="PrSFBp_fine" type="int" value="33" />
+  <param name="DiffBn_coarse" type="int" value="4" />
+  <param name="DiffBn_fine" type="int" value="39" />
+  <param name="ONBn_coarse" type="int" value="6" />
+  <param name="ONBn_fine" type="int" value="200" />
+  <param name="OFFBn_coarse" type="int" value="4" />
+  <param name="OFFBn_fine" type="int" value="0" />
+  <param name="RefrBp_coarse" type="int" value="4" />
+  <param name="RefrBp_fine" type="int" value="25" />
+  <param name="ADC_RefHigh_volt" type="int" value="27" />
+  <param name="ADC_RefHigh_curr" type="int" value="7" />
+  <param name="ADC_RefLow_volt" type="int" value="1" />
+  <param name="ADC_RefLow_curr" type="int" value="7" />
+</node>
+\endverbatim
+

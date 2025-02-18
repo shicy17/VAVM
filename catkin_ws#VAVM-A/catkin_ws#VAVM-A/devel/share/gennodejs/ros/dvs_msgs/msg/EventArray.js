@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/dvs_msgs/share/gennodejs/ros/dvs_msgs/msg/EventArray.js

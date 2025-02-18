@@ -1,0 +1,7 @@
+VAVM-A/src/rotation_estimator
+/home/julia/catkin_ws/devel/.private/rotation_estimator/cmake.lock /home/julia/catkin_ws/devel/./cmake.lock
+/home/julia/catkin_ws/devel/.private/rotation_estimator/share/rotation_estimator/cmake/rotation_estimatorConfig.cmake /home/julia/catkin_ws/devel/share/rotation_estimator/cmake/rotation_estimatorConfig.cmake
+/home/julia/catkin_ws/devel/.private/rotation_estimator/share/rotation_estimator/cmake/rotation_estimatorConfig-version.cmake /home/julia/catkin_ws/devel/share/rotation_estimator/cmake/rotation_estimatorConfig-version.cmake
+/home/julia/catkin_ws/devel/.private/rotation_estimator/lib/librotation_estimator.so /home/julia/catkin_ws/devel/lib/librotation_estimator.so
+/home/julia/catkin_ws/devel/.private/rotation_estimator/lib/rotation_estimator/rotation_estimation /home/julia/catkin_ws/devel/lib/rotation_estimator/rotation_estimation
+/home/julia/catkin_ws/devel/.private/rotation_estimator/lib/pkgconfig/rotation_estimator.pc /home/julia/catkin_ws/devel/lib/pkgconfig/rotation_estimator.pc

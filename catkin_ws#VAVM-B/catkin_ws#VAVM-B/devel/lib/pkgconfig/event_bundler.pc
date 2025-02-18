@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/event_bundler/lib/pkgconfig/event_bundler.pc

@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/dvs_msgs/share/roseus/ros/dvs_msgs/msg/Event.l

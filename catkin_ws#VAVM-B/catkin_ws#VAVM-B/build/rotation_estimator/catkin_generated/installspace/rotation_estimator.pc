@@ -1,0 +1,8 @@
+prefix=/home/julia/catkin_ws/install
+
+Name: rotation_estimator
+Description: Description of rotation_estimator
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrotation_estimator
+Requires: cv_bridge eigen_conversions roscpp sensor_msgs std_msgs

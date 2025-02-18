@@ -1,0 +1,5 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/gt_publisher.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/julia/catkin_ws/devel/.private/gt_publisher/lib/gt_publisher/gt_publisher[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.2
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0, may conflict with libopencv_core.so.3.2
+[100%] Built target gt_publisher

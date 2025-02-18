@@ -1,0 +1,10 @@
+VAVM-B/src/event_publisher
+/home/julia/catkin_ws/devel/.private/event_publisher/cmake.lock /home/julia/catkin_ws/devel/./cmake.lock
+/home/julia/catkin_ws/devel/.private/event_publisher/share/event_publisher/cmake/event_publisherConfig.cmake /home/julia/catkin_ws/devel/share/event_publisher/cmake/event_publisherConfig.cmake
+/home/julia/catkin_ws/devel/.private/event_publisher/share/event_publisher/cmake/event_publisherConfig-version.cmake /home/julia/catkin_ws/devel/share/event_publisher/cmake/event_publisherConfig-version.cmake
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/libimage.so /home/julia/catkin_ws/devel/lib/libimage.so
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/libevent.so /home/julia/catkin_ws/devel/lib/libevent.so
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/libimu.so /home/julia/catkin_ws/devel/lib/libimu.so
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/libevent_publisher.so /home/julia/catkin_ws/devel/lib/libevent_publisher.so
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/event_publisher/event_publisher /home/julia/catkin_ws/devel/lib/event_publisher/event_publisher
+/home/julia/catkin_ws/devel/.private/event_publisher/lib/pkgconfig/event_publisher.pc /home/julia/catkin_ws/devel/lib/pkgconfig/event_publisher.pc

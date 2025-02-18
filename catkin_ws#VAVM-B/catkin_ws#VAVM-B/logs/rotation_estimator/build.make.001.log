@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target rotation_estimator_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rotation_estimator_node.dir/src/rotation_estimator_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rotation_estimator_node.dir/src/system.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rotation_estimator_node.dir/src/system_estimate.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rotation_estimator_node.dir/src/system_estimate_ransac_doublewarp_ceres.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable /home/julia/catkin_ws/devel/.private/rotation_estimator/lib/rotation_estimator/rotation_estimator_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.2
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0, may conflict with libopencv_imgproc.so.3.2
+[100%] Built target rotation_estimator_node

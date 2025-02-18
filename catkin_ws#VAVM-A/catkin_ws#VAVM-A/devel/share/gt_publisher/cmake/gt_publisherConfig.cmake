@@ -1,0 +1,1 @@
+/home/julia/catkin_ws/devel/.private/gt_publisher/share/gt_publisher/cmake/gt_publisherConfig.cmake

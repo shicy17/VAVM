@@ -1,0 +1,8 @@
+
+<launch>
+  <node name="rotation_estimator" pkg="rotation_estimator" type="rotation_estimation" output="screen">
+    <remap from="/dvs/events" to="/dvs/bundle_events" />
+    <remap from="/dvs/imu" to="/dvs/bundle_imu" />
+    <param name="yaml" type="string" value="$(find rotation_estimator)/config/config.yaml" />
+  </node>
+</launch>
