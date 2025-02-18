@@ -1,5 +1,8 @@
 # VAVM
-A Variable Angular Velocity Model and An Event-Based Fast Rotation Dataset.
+A Variable Angular Velocity Model (VAVM) and An Event-Based Fast Rotation Dataset.
+
+#
+Rotation estimation algorithms implemented in the VAVM model, including the EF-based approach (VAVM-A) and TS-based method (VAVM-B), along with our proposed optimized cost function.
 
 The dataset is available at [EFRD](https://drive.google.com/drive/folders/1tOlC-aOPL0YmYcQKetyEFWWRYONG8kF0).
 
