@@ -24,3 +24,13 @@ The EFRD is recorded in the data format of rosbag. Within the rosbag of each seq
 
 ## Calibration
 The intrinsics of DAVIS346 is calibrated by VINS-mono and is reported in _cam_calib.yaml_ (same with data in "/dvs/camera_info"). The extrinsics between DAVIS346 and IMU is calibrated by Kalibr and is reported in _imucam_calib.yaml_.
+
+# Reference
+
+Some other good rotation estimation resources that we benefit from:
+
+[CMAX-GAE]
+
+[STAE]
+
+If you utilize any portion of this codebase, please kindly cite the abovementioned seminal works.
