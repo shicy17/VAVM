@@ -31,8 +31,8 @@ The intrinsics of DAVIS346 is calibrated by VINS-mono and is reported in _cam_ca
 
 Some other good rotation estimation resources that we benefit from:
 
-[CMAX-GAE]{https://github.com/Haram-kim/Globally_Aligned_Events}
+[CMAX-GAE](https://github.com/Haram-kim/Globally_Aligned_Events)
 
-[STAE]{https://github.com/huangxueyan/PEME}
+[STAE](https://github.com/huangxueyan/PEME)
 
 If you utilize any portion of this codebase, please kindly cite the abovementioned seminal works.
