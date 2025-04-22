@@ -21,7 +21,7 @@ The EFRD is recorded in the data format of rosbag. Within the rosbag of each seq
   The raw data produced by LPMS-IG1 IMU.
 - /imu/gt (geometry_msgs/PoseStamped)  
   The ground truth of the position and orientation of DAVIS346. Generated from data in "/imu/data".
-- /vrpn_client_node/Rigid0/pose (sensor_msgs/Image)
+- /vrpn_client_node/Rigid0/pose (sensor_msgs/Image)  
   The position and orientation of DAVIS346 provided by the motion capture system.
 
 ## Calibration
